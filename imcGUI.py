@@ -1,4 +1,4 @@
-import git  as sg
+import PySimpleGUI as sg
 sg.theme('Default1')
 
 
@@ -71,7 +71,7 @@ def peso_ideal(alt):
 
 layout1 = [
     [sg.Text('Calculadora de Índice de Massa Corporal e peso ideal.')],
-    [sg.Text('')],
+    [sg.Text('versão 0.4')],
     [sg.Submit('Começar')]
 ]
 
