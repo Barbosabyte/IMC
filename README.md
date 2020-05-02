@@ -1,4 +1,5 @@
 # IMC
-Calculadora de Índice de Massa Corporal e peso ideal.\n
-Dependências:\n
+Calculadora de Índice de Massa Corporal e peso ideal.\
+\
+### Dependências:\
 PySimpleGUI - apenas para a versão gráfica
