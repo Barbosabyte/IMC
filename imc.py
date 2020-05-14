@@ -40,18 +40,18 @@ def peso_ideal(alt):
     maximo = (24.99 * (alt ** 2.5)) / 1.3
     return round((minimo + maximo) / 2)
 
-print('====================================================')
-print('CALCULADORA DE ÍNDICE DE MASSA CORPORAL E PESO IDEAL')
-print('====================================================')
+echo '====================================================')
+echo 'CALCULADORA DE ÍNDICE DE MASSA CORPORAL E PESO IDEAL')
+echo '====================================================')
 nome = input('\nPor favor introduza o seu nome:\n')
 m = altura() / 100
 kg = peso()
 imc = round((1.3 * kg) / (m ** 2.5), 2)
-print(f'\n{nome}, o seu IMC é {imc}, você está {tabela(imc)}.')
+echo f'\n{nome}, o seu IMC é {imc}, você está {tabela(imc)}.')
 if 18.5 <= imc < 25:
-    print('O seu peso é ideal, mantenha-se assim')
+    echo 'O seu peso é ideal, mantenha-se assim')
 else:
-    print(f'O seu peso ideal é {peso_ideal(m)}Kg.\n')
-print('====================================================')
-print('         Programa por André Barbosa - 2020          ')
-print('====================================================')
+    echo f'O seu peso ideal é {peso_ideal(m)}Kg.\n')
+echo '====================================================')
+echo '         Programa por André Barbosa - 2020          ')
+echo '====================================================')
